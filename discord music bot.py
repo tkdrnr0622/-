@@ -5,6 +5,7 @@ import asyncio
 import os
 from dotenv import load_dotenv
 
+
 load_dotenv()
 TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
@@ -143,5 +144,5 @@ async def 나가(ctx):
         await ctx.send("❌ 봇이 음성 채널에 없습니다.")
 
 
-        
-bot.run("MTA5ODQzMDY4NDI1NjgwOTA0MQ.GNYlkP.t2btswuQkRaPJWzTjKvlPdSW37MXYfLZJWAvUE")
+access_token = os.environ["BOT_TOKEN"]
+bot.run("assess_token")
